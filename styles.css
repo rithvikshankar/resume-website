@@ -32,12 +32,13 @@ header span {
 }
 
 nav {
-  padding: 0.8rem;
+  padding: 0.7rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   color: rgba(255, 255, 255, 0.9);
   background-color: rgb(34, 42, 51);
+  font-weight: 500;
 }
 
 nav div {
@@ -60,12 +61,19 @@ nav div {
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .column {
-  flex: 1;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+}
+
+.year-cgpa-box {
+  display: flex;
+  justify-content: space-between;
 }
 
 .fa-solid,
