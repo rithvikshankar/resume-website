@@ -22,7 +22,7 @@ header h1 {
 
 header p {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 0.7rem;
+  font-size: 1rem;
   letter-spacing: 0.04rem;
   line-height: 1.5;
 }
@@ -32,5 +32,44 @@ header span {
 }
 
 nav {
+  padding: 0.8rem;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgb(34, 42, 51);
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-icon {
+  margin-right: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  flex: 1;
+}
+
+.fa-solid,
+.fa-brands {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.5rem;
 }
