@@ -6,10 +6,12 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
+  background-color: #fbfbf2;
 }
 
 header {
-  background-color: #313c4e;
+  /* background-color: #313c4e; */
+  background-color: #274255;
   padding: 0.8rem 1rem 0.5rem 1.5rem;
 }
 
@@ -37,7 +39,7 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   color: rgba(255, 255, 255, 0.9);
-  background-color: rgb(34, 42, 51);
+  background-color: #202c39;
   font-weight: 500;
 }
 
@@ -60,10 +62,10 @@ nav div {
   margin-right: 10px;
 }
 
-.main {
+.grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  /* gap: 20px; */
 }
 
 .column {
@@ -71,9 +73,41 @@ nav div {
   border: 1px solid #ccc;
 }
 
+.subheading-text {
+  color: #449399;
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.sub-subheading-text {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.education-box {
+  line-height: 1.5rem;
+}
+
+.edu-box-subbox {
+  margin-top: 1rem;
+}
+
 .year-cgpa-box {
   display: flex;
   justify-content: space-between;
+  color: #449399;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.work-exp-box {
+  margin-top: 2rem;
+}
+
+.courses-box {
+  line-height: 1.7rem;
+  /* font-weight: ; */
 }
 
 .fa-solid,
