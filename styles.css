@@ -6,7 +6,7 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
-  background-color: #fbfbf2;
+  /* background-color: #fbfbf2; */
 }
 
 header {
@@ -101,13 +101,36 @@ nav div {
   font-style: italic;
 }
 
-.work-exp-box {
+.work-exp-box,
+.projects-box,
+.certificates-box,
+.additional-box,
+.languages-box {
   margin-top: 2rem;
 }
 
-.courses-box {
+.courses-box,
+.work-exp-box {
   line-height: 1.7rem;
   /* font-weight: ; */
+}
+
+.work-exp-details {
+  /* text-indent: 10px; */
+  /* list-style: none; */
+  padding: 0.5rem 0.5rem 0 1rem;
+}
+
+.project-heading {
+  color: #449399;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.individual-project {
+  line-height: 1.2rem;
+  padding-bottom: 1.5rem;
 }
 
 .fa-solid,
