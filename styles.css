@@ -70,7 +70,6 @@ nav div {
 
 .column {
   padding: 1.5rem;
-  border: 1px solid #ccc;
 }
 
 .subheading-text {
@@ -89,7 +88,8 @@ nav div {
   line-height: 1.5rem;
 }
 
-.edu-box-subbox {
+.edu-box-subbox,
+.skills-bubbles {
   margin-top: 1rem;
 }
 
@@ -103,9 +103,11 @@ nav div {
 
 .work-exp-box,
 .projects-box,
+.courses-box,
 .certificates-box,
 .additional-box,
-.languages-box {
+.languages-box,
+.interests-box {
   margin-top: 2rem;
 }
 
@@ -131,6 +133,41 @@ nav div {
 .individual-project {
   line-height: 1.2rem;
   padding-bottom: 1.5rem;
+}
+
+.skills-interests-bubbles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.individual-skill-interest-box {
+  color: white;
+  background-color: #449399;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  margin: 0 0.2rem 0.4rem 0.2rem;
+  font-weight: bold;
+}
+
+.certificates-box p,
+.additional-box p {
+  margin-bottom: 1rem;
+}
+
+.languages-subbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.languages-sub-subheading {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.languages-coloured-italic {
+  color: #449399;
+  font-style: italic;
+  margin-top: 0.5rem;
 }
 
 .fa-solid,
