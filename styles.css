@@ -65,7 +65,29 @@ nav div {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* gap: 20px; */
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-element {
+    margin-top: 0.9rem;
+  }
+
+  .nav-element:first-child {
+    margin-top: 0.5rem;
+  }
+
+  .nav-element:last-child {
+    margin-bottom: 0.5rem;
+  }
+
+  .grid-container {
+    grid-template-columns: 100%;
+  }
 }
 
 .column {
