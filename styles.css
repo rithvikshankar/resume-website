@@ -102,9 +102,17 @@ nav div {
   font-weight: bolder;
 }
 
+.projects-heading {
+  margin-bottom: 1rem;
+}
+
 .sub-subheading-text {
   font-weight: bold;
   font-size: 1rem;
+}
+
+.eminds {
+  margin-top: 1rem;
 }
 
 .education-box {
